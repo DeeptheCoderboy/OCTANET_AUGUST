@@ -1,0 +1,61 @@
+
+.header{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
+    place-content: center;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px ;
+    text-align: center;
+ 
+}
+.todo-container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px ;
+}
+
+#todo-title{
+    font-size: 15px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    
+}
+#todo-date{
+    font-size: 15px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    
+}
+.title{
+    font-size: 15px;
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: beige;
+    
+}
+
+.add-btn{
+    padding: 15px 0px;
+    background-color: rgb(127, 234, 128);
+    border: none;
+    border-radius: 10px;
+}
+.del-btn{
+    padding: 15px 0px;
+    background-color: rgb(125, 43, 8);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
